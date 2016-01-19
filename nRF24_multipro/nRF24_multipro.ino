@@ -62,8 +62,8 @@
 #define CHANNELS 12 // number of channels in ppm stream, 12 ideally
 enum chan_order{
     RUDDER,   // (CH1) - RETA mode
-	   ELEVATOR, // (CH2)
-   	THROTTLE, // (CH3)
+    ELEVATOR, // (CH2)
+    THROTTLE, // (CH3)
     AILERON,  // (CH4)
     AUX1,  // (CH5)  led light, or 3 pos. rate on CX-10, H7, or inverted flight on H101
     AUX2,  // (CH6)  flip control
