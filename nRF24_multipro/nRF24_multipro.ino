@@ -61,10 +61,10 @@
 // PPM stream settings
 #define CHANNELS 12 // number of channels in ppm stream, 12 ideally
 enum chan_order{
-    THROTTLE,
-    AILERON,
-    ELEVATOR,
-    RUDDER,
+    RUDDER,   // (CH1) - RETA mode
+	   ELEVATOR, // (CH2)
+   	THROTTLE, // (CH3)
+    AILERON,  // (CH4)
     AUX1,  // (CH5)  led light, or 3 pos. rate on CX-10, H7, or inverted flight on H101
     AUX2,  // (CH6)  flip control
     AUX3,  // (CH7)  still camera (snapshot)
